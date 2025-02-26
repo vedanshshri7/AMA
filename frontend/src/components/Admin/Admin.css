@@ -1,0 +1,53 @@
+.admin-container{
+    background-color: #111;
+    color: white;
+    margin: .5rem;
+    padding: 1rem;
+    border: .1rem solid white;
+}
+
+.admin-box{
+    border: .1rem solid white;
+    margin: .5rem 1rem;
+    padding: 1rem;
+}
+.admin-options h1{
+    padding: 0rem .5rem;
+    font-weight: 500;
+    color: gold;
+    /* text-decoration: underline; */
+}
+.option-list{
+    list-style-type:none;
+    font-size: 2rem;
+    padding: 0rem 1rem;
+}
+.admin-link:hover{
+    color: red;
+    font-weight: 500;
+}
+.admin-link{
+    color: white;
+    text-decoration: none;
+    transition: color .3s ease;
+    /* width: 8rem; */
+}
+.option-item{
+    margin: 1rem .5rem;
+}
+
+.loader-div{
+    background-color: #111;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.error-div{
+    background-color: #111;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+}

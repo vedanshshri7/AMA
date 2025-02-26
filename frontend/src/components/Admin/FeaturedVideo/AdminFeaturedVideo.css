@@ -1,0 +1,84 @@
+.admin-featured-video-loader-div{
+    background-color: #111;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.admin-featured-video-error-div{
+    background-color: #111;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.admin-featured-video-container{
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+}
+
+.admin-featured-video-form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: .1rem solid white;
+    margin: 1rem;
+    padding: 1rem 3rem;
+}
+
+.admin-featured-video-input{
+    margin: 1rem 0rem;
+    width: 20rem;
+}
+
+.admin-featured-video-form-btn{
+    width: 7%;
+    background-color: rgb(230, 0, 0);
+    color: white;
+    border: .1rem solid white;
+    border-radius: .5rem;
+    margin: 1.5rem;
+    padding: .5rem;
+    font-weight: 600;
+    transition: transform .25s ease, background-color .25s ease;
+}
+.admin-featured-video-form-btn:hover{
+    background-color: red;
+    transform: scale(1.07);
+}
+
+.admin-featured-video-form-btn:active{
+    background-color: rgb(200,0,0);
+}
+
+.adminVideo-goBack-btn{
+    background-color: #111;
+    color: red;
+    border: .2rem solid red;
+    border-radius: .5rem;
+    font-weight: 600;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.adminVideo-goBack-btn:hover{
+    color: white;
+    background-color: rgb(161, 2, 2);
+}
+
+.video-names, .video-upload{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    border: .1rem solid #111;
+    /* border-bottom: .1rem solid white; */
+}
+.admin-featured-video-btn{
+    text-align: center;
+}
+.uploaded-video{
+    width: 40rem;
+}

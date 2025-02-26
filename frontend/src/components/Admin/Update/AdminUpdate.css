@@ -1,0 +1,24 @@
+.adminUpdate-container{
+    background-color: #111;
+    margin: 1rem;
+    border: .1rem solid white;
+    padding: 1rem;
+}
+
+.goBack-btn{
+    background-color: #111;
+    color: red;
+    border: .2rem solid red;
+    border-radius: .5rem;
+    font-weight: 600;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.goBack-btn:hover{
+    color: white;
+    background-color: rgb(161, 2, 2);
+}
+
+.adminUpdate-box{
+    color: white;
+}

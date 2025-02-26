@@ -1,0 +1,132 @@
+.cart-container{
+    background-color: #111;
+    color: white;
+    margin: 0rem;
+    padding: 1rem 0rem;
+}
+
+.cart{
+    margin: 2rem;
+    padding: 1rem;
+    border: .2rem solid white;
+    border-radius: 1rem;
+}
+.cart-item{
+    display: flex;
+    margin: .5rem;
+    background-color: #222;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.item-info{
+    display: flex;
+}
+.cart-item-image{
+    width: 35rem;
+    /* height: 100%; */
+    border: .1rem solid white;
+    border-radius: 2rem;
+}
+.cart-item-info{
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart-item-name{
+    font-size: 3rem;
+}
+.cart-item-price{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.cart-item-number{
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+.del-btn{
+    align-content: end;
+    padding: 1rem;
+    width: 8rem;
+}
+.delete-btn{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.7rem;
+    background-color: #111;
+    border: .1rem solid white;
+    color: white;
+    border-radius: .5rem;
+    transition: tranform .25s ease, background-color .25s ease;
+}
+.delete-btn:hover{
+    transform: scale(1.1);
+    background-color: #222;
+}
+.delete-btn:active{
+    background-color: #333;
+}
+.empty-notice{
+    font-size: 3rem;
+    padding: 2rem;
+}
+.cart-header{
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+    padding: 1rem 2rem; 
+}
+.total-price{
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 1rem 4rem;
+}
+.net-price{
+    font-size: 2.3rem; 
+    align-content: center;
+}
+.right-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+}
+.qty-text{
+    font-weight: 400;
+}
+.quantity{
+    display: flex;
+}
+.option-input{
+    align-content: center;
+    margin-left: 1rem;
+    /* width: 4rem; */
+}
+.quantity-field{
+    width: 7rem;
+    height: 3.5rem;
+}
+
+@media (max-width: 1000px){
+    .cart-item-image{
+        width: 30rem;
+    }
+    .right-options{
+        padding: 1rem 0rem;
+    }
+    .cart-item-info{
+        padding-right: .5rem;
+    }
+    .cart-item-name{
+        font-size: 2.5rem;
+    }
+    .cart-item-price{
+        font-size: 2.2rem;
+    }
+    .quantity-field{
+        width: 6rem;
+        height: 3rem;
+    }
+}

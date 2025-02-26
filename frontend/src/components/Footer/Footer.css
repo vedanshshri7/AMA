@@ -1,0 +1,100 @@
+.footer-container {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: .5rem 1rem;
+    padding-bottom: 4rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+.footer-container h1{
+    font-size: 2.3rem; 
+    margin: .5rem;   
+}
+
+.footer-container .footer-content {
+    display: grid;
+    grid-template-columns: 2;
+    /* justify-content: space-around; */
+    padding: 1rem 0;
+}
+
+.footer-logo-img{
+    width: 40rem;
+    padding: 2rem;
+    border: .1rem solid white;
+    border-radius: 4rem;
+    margin: 3rem;
+}
+
+.footer-container .footer-section {
+    flex: 1;
+    padding: 1rem;
+}
+
+.footer-container .footer-section h2 {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+}
+
+.footer-container .footer-section p,
+.footer-container .footer-section a {
+    color: white;
+    text-decoration: none;
+    margin: .5rem 0;
+    font-size: 2rem;
+}
+
+.footer-container .footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    padding: 1rem 0;
+    border-top: .1rem solid #555;
+    font-size: 1.8rem;
+}
+
+.footer-container .footer-section.contact{
+    font-size: 1.4rem;
+}
+.footer-section.contact{
+    text-align: center;
+}
+.footer-section.contact a{
+    margin-left: .5rem;
+    color: rgb(246, 42, 42);
+    font-weight: bold;
+}
+.footer-section.about p{
+    font-size: 1.7rem;
+}
+.footer-section.about {
+    padding-top: 0rem;
+    /* text-align: left; */
+}
+.footer-section.about h2{
+    font-size: 2.3rem;
+}
+
+#contact-divider{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+.link.logo{
+    width: 4rem;
+    height: 4rem;
+    margin: 0rem .5rem;
+    transition: transform .5s ease;
+}
+
+.link.logo:hover{
+    transform: scale(1.15);
+}

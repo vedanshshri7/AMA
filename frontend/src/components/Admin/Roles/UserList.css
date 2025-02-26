@@ -1,0 +1,66 @@
+.userList-container{
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+}
+.user-list{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.user-list-ul{
+    list-style-type: none;
+    padding: 1rem;
+}
+.user-list-div{
+    border: .1rem solid white;
+    margin: 1rem;
+    padding: 1rem;
+    transition: transform .1s ease, background-color .1s ease, color .1s ease;
+    font-size: 1.4rem;
+}
+.user-list-heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+.user-list-div:hover{
+    transform: scale(1.02);
+    background-color: red;
+    color: white;
+    font-weight: 500;
+}
+.user-list-heading-name{
+    padding-right: 4rem;
+}
+.container-heading{
+    font-weight: 500;
+    text-align: center;
+    padding-right: 4rem;
+    text-decoration: underline;
+}
+.userList-goBack-div{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 4rem;
+}
+.userList-goBack-btn{
+    background-color: #111;
+    color: red;
+    border: .2rem solid red;
+    border-radius: .5rem;
+    font-weight: 600;
+    height: 4rem;
+    font-size: 2rem;
+    margin: 2rem;
+}
+.userList-goBack-btn:hover{
+    background-color: red;
+    color: white;
+}
+.userList-goBack-btn:active{
+    background-color: rgb(188, 0, 0);
+}

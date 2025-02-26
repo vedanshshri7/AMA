@@ -1,0 +1,93 @@
+.homepage{
+    color: white;
+    margin:2.5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+.homepage h1{
+    font-size: 4.2rem;
+    font-weight: bold;
+    border-left: .5rem solid rgb(183, 1, 1);
+    padding: .5rem;
+}
+
+.name{
+    background: linear-gradient(to right, rgb(154, 1, 1), rgb(250, 48, 48));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip:none;
+}
+
+.homepage img{
+    width: 37rem;
+    height: 28rem;
+    border-radius: 5%;
+    margin-right: 1rem;
+    padding: .4rem;
+    border: white solid .3rem;
+
+}
+
+.contact-btn{
+    color: white;
+    /* background-color: rgb(154, 1, 1); */
+    background-image: linear-gradient(red, rgb(246, 25, 25));
+    width: 10rem;
+    height: 4rem;
+    border-radius: .7rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding:.4rem;
+    border: .2rem solid white;
+    z-index: .1rem;
+    transition: transform .5s ease, background-color .5s ease;
+    margin: 0rem 2rem;
+}
+
+.contact-btn:hover{
+    background-color: rgb(253, 20, 20);
+    transform: scale(1.1);
+}
+
+.contact-btn:active{
+    opacity:0.8;
+}
+.contact{
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.divider{
+    color: white;
+}
+
+.description{
+    font-size: 1.5rem;
+}
+.contact-btn-link{
+    text-decoration: none;
+    color: white;
+}
+.music-room-3d{
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: auto;
+    z-index: 1;
+}
+
+@media (max-width: 1000px){
+    .homepage{
+        flex-direction: column;
+    }
+    .homepage h1{
+        margin-top: .5rem;
+    }
+    .homepage-img-div{
+        text-align: center;
+    }
+    .description{
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,66 @@
+.updateRole-container{
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.updateRole-form{
+    border: .1rem solid white;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.form-label{
+    margin: 0rem 1rem;
+    font-size: 2rem;
+}
+.form-label select{
+    margin: 0rem 2rem;
+    font-size: 2rem;
+    width: 12rem;
+    height: 4.5rem;
+    padding: 1rem;
+}
+
+.updateRole-btn{
+    background-color: #111;
+    color: red;
+    border: .2rem solid red;
+    border-radius: .5rem;
+    font-weight: 600;
+    height: 4rem;
+    font-size: 1.8rem;
+}
+.updateRole-btn:hover{
+    background-color: red;
+    color: white;
+}
+.updateRole-btn:active{
+    background-color: rgb(188, 0, 0);
+}
+.updateRole-goBack-div{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 4rem;
+}
+.updateRole-goBack-btn{
+    background-color: #111;
+    color: red;
+    border: .2rem solid red;
+    border-radius: .5rem;
+    font-weight: 600;
+    height: 4rem;
+    font-size: 2rem;
+    margin: 2rem;
+}
+.updateRole-goBack-btn:hover{
+    background-color: red;
+    color: white;
+}
+.updateRole-goBack-btn:active{
+    background-color: rgb(188, 0, 0);
+}
